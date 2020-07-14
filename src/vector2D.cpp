@@ -1,5 +1,5 @@
 #include <math.h>
-#include "../include/vector.hpp"
+#include "vector.hpp"
 
 //単位ベクトルを計算する
 Vector2D get_unit_vector( Vector2D v ) {
