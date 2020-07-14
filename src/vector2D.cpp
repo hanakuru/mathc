@@ -1,10 +1,5 @@
 #include <math.h>
-
-//ベクトルの定義
-struct Vector2D{
-  double x;
-  double y;
-};
+#include "../include/vector.hpp"
 
 //単位ベクトルを計算する
 Vector2D get_unit_vector( Vector2D v ) {
